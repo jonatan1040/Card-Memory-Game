@@ -1,0 +1,50 @@
+body {
+    /* background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.not_flipped {
+    content: url(./images/card_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transition: content 2s;
+    transition-timing-function: linear; */
+}
+
+.flipped {
+    transform: rotateY(180deg);
+    /* transition: transform 2s;
+    transition-timing-function: linear; */
+}
+
+.container-fluid {
+    padding: 3%;
+}
+
+.container {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.row.two {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.col {
+    flex: 0 0 22%;
+}
+
+.row {
+    justify-content: center;
+}
+
+img {
+    width: 22vw;
+    height: 19vh;
+}
+
+.not_clickable {
+    pointer-events: none;
+}
